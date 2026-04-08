@@ -4,6 +4,9 @@
     "cypress-xpath": "^2.0.1"
   },
   "scripts": {
-    "cypress": "cypress open"
+    "start": "npx serve . -l 3000",
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   }
 }

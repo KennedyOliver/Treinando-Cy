@@ -25,7 +25,7 @@ jobs:
         run: npm ci     
 
       - name: Run Cypress
-        run: npm run cypress
+        run: npm run cypress:run
 
       - name: Upload Cypress screenshots
         if: always()
